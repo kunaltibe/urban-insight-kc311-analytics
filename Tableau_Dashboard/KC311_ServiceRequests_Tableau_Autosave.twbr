@@ -1,0 +1,3427 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0112.1233                               -->
+<workbook original-version='18.1' source-build='2023.3.2 (20233.24.0112.1233)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CallCenterServiceRequests (DAMG7370)' inline='true' name='federated.128x0350vrkbbl143qyko0nt7892' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='10.0.0.4' name='sqlserver.1p5chhz18ebnwz15vyo1f1n5sqb6'>
+            <connection authentication='sqlserver' class='sqlserver' dbname='DAMG7370' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' server='10.0.0.4' username='SA' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='sqlserver.1p5chhz18ebnwz15vyo1f1n5sqb6' name='CallCenterServiceRequests' table='[dbo].[CallCenterServiceRequests]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='sqlserver.1p5chhz18ebnwz15vyo1f1n5sqb6' name='CallCenterServiceRequests' table='[dbo].[CallCenterServiceRequests]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>RecordID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[RecordID]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>RecordID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CASE ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CASE ID]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CASE ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOURCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SOURCE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>SOURCE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEPARTMENT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DEPARTMENT]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>DEPARTMENT</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>35</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORK GROUP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORK GROUP]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>WORK GROUP</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TYPE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>TYPE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>48</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DETAIL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DETAIL]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>DETAIL</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>48</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CREATION TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CREATION TIME]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CREATION TIME</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATUS]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>STATUS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EXCEEDED EST TIMEFRAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EXCEEDED EST TIMEFRAME]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>EXCEEDED EST TIMEFRAME</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS TO CLOSE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS TO CLOSE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>DAYS TO CLOSE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREET ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STREET ADDRESS]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>STREET ADDRESS</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>39</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIP CODE</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ZIP CODE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>ZIP CODE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEIGHBORHOOD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NEIGHBORHOOD]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>NEIGHBORHOOD</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>42</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTY]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>COUNTY</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>13</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POLICE DISTRICT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[POLICE DISTRICT]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>POLICE DISTRICT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>11</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARCEL ID NO</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[PARCEL ID NO]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>PARCEL ID NO</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATITUDE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>LATITUDE</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY1]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CATEGORY1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>33</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY2]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CATEGORY2</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>9</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CATEGORY3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CATEGORY3]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CATEGORY3</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>12</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CREATION_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[CREATION_DATE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CREATION_DATE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CLOSED_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[CLOSED_DATE]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CLOSED_DATE</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreatedDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[CreatedDate]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CreatedDate</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreatedBy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CreatedBy]</local-name>
+            <parent-name>[CallCenterServiceRequests]</parent-name>
+            <remote-alias>CreatedBy</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Case Id' datatype='integer' name='[CASE ID]' role='dimension' type='ordinal' />
+      <column caption='Category1' datatype='string' name='[CATEGORY1]' role='dimension' type='nominal' />
+      <column caption='Category2' datatype='string' name='[CATEGORY2]' role='dimension' type='nominal' />
+      <column caption='Category3' datatype='string' name='[CATEGORY3]' role='dimension' type='nominal' />
+      <column caption='Closed Date' datatype='date' name='[CLOSED_DATE]' role='dimension' type='ordinal' />
+      <column caption='County' datatype='string' name='[COUNTY]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Creation Time' datatype='string' name='[CREATION TIME]' role='dimension' type='nominal' />
+      <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+      <column caption='Days To Close Ranking' datatype='integer' name='[Calculation_514817782668394496]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(MAX([DAYS TO CLOSE]), &apos;asc&apos; )'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Average Days to Close' datatype='real' name='[Calculation_514817782684004354]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([DAYS TO CLOSE])' />
+      </column>
+      <column caption='Response-Time' datatype='integer' name='[Calculation_514817782817714181]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [CREATION_DATE],[CLOSED_DATE] )' />
+      </column>
+      <column caption='Created By' datatype='string' name='[CreatedBy]' role='dimension' type='nominal' />
+      <column caption='Created Date' datatype='datetime' name='[CreatedDate]' role='dimension' type='ordinal' />
+      <column caption='Days To Close' datatype='real' name='[DAYS TO CLOSE]' role='measure' type='quantitative' />
+      <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+      <column caption='Detail' datatype='string' name='[DETAIL]' role='dimension' type='nominal' />
+      <column caption='Exceeded Est Timeframe' datatype='string' name='[EXCEEDED EST TIMEFRAME]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Neighborhood' datatype='string' name='[NEIGHBORHOOD]' role='dimension' type='nominal' />
+      <column caption='Parcel Id No' datatype='integer' name='[PARCEL ID NO]' role='measure' type='quantitative' />
+      <column caption='Police District' datatype='string' name='[POLICE DISTRICT]' role='dimension' type='nominal' />
+      <column caption='Record ID' datatype='integer' name='[RecordID]' role='dimension' type='ordinal' />
+      <column caption='Source' datatype='string' name='[SOURCE]' role='dimension' type='nominal' />
+      <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+      <column caption='Street Address' datatype='string' name='[STREET ADDRESS]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[TYPE]' role='dimension' type='nominal' />
+      <column caption='Work Group' datatype='string' name='[WORK GROUP]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Zip Code' datatype='integer' default-format='*00000' name='[ZIP CODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+      <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[STATUS]' derivation='None' name='[none:STATUS:nk]' pivot='key' type='nominal' />
+      <column-instance column='[TYPE]' derivation='None' name='[none:TYPE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ZIP CODE]' derivation='None' name='[none:ZIP CODE:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:TYPE:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Administration&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Banners&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Barking Dog&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bulky&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;City Clerkâ€˜s Office&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Community Service&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Data Not Available&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DOWN OR DAMAGED&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Inspection for NPD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Obstructed / Closure&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Snow / Ice&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Street Clean Up&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Street Preservation&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Traffic Permit&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;30&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abandoned On Street&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cruelty or Neglect&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Culvert&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Emerald Ash Borer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hazardous&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Improved Channel&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Intersection&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Paper Street&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Public Facilities&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Public Works&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Recycle&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Restoration&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Streetlight Pole&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;03&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Airports&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bicycle Pedestrian&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Guardrail&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nuisance&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Parking Ticket Issue&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Plate&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Police&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pool / Hot Tub&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Replacement&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Right of Way (ROW)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Storm Damage&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Stray&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Traffic Signal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Capital Improvement Management Office&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dumpsters&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IT / Websites&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Land Use / Zoning Issue&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Neighborhood Preservation&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;New&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;No Dumping Sign&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Outage&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Parked on Unapproved Surface&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pothole&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sewer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Speed Bump&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Water Billing&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Barrier Removal Program&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bulky Pick Up&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Capital Projects Office&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Customer Service&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Emerald Ash&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Food Establishment&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Landscaping&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lead Poisoning Prevention&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Minor Home Repair&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Missing&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Salvage Yard Investigation&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Services&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sinkhole&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Weatherization Program&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;City Communications&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Commercial Vehicle&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Disrepair&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Elevator Inspection&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Leaf &amp; Brush&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Parking Meter&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Private / Commercial&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Railroad Property&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Resurfacing&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sewer Odor&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Smoking / Tobacco&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Water Main Repair&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Boulevards and Parkways&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;City&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Communications&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Crack&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Damage&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Engineering&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Graffiti&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Meter&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Municipal Court&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pipeline Repair&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Scooter&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Street Sweeping&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;05&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Action Center&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ADA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Billing&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Construction Repair&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Curb Box&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ditch&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Investigation&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;New Request&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Parks Facilities&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Pavement Restoration&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Quality&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Rat Treatment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Building / Property&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Damage / Dis-Repair&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dead Animal&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Disease&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Encroachment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Icing&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Landlord Set Out&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Parking&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Permit / License&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Questionable Activity&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Referral&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Revenue Protection&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Trimming&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;All&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dangerous Building&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Disease Control&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hydrant Repair&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KC Police&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Other-Maintenance&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Parks&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Permit&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Roll-out Cart&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sinkhole Referral&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Stormwater Billing&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ticket&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Walk In Center City Hall&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;01&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cleaning&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Early Set Out&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Emergency&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Google Fiber Project&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Industrial&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Markings / Paint&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Not Provided By KCMO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Planting&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sewer Backup / Leak&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Street&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tobacco&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Transportation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;WaterServices-ConsumerServices-BackOfficeSupport&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Assessment Dispute&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Blvd / Pkwy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Construction Issue/Concern&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jackson County&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Land Development&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MFS Referral (Meter Field Services)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;No Water / Pressure&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pollutants&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Property Maintenance&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Security / Safety&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Storm Water&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Traffic Study&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Trash&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Trash Collection&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bite&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;City Property&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Commercial Parking&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Emergency Management&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Facilities / Attractions&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Illegally Parked Vehicle&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Leaf / Brush&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PIAC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Regulated Industries&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Repair&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Right of Way&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Supervisors&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Valve Repair&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;23&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Abandoned&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Athletics&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Automatic Meter Reading&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Finance&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Flood Barricade&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hotel / Motel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Illegal Dumping&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Land Trust&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Outdoor Air Quality&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rat Control and Treatment&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Solid Waste Operations&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Street Services&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ADA Accessibility&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;City Council&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Dumping&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Investigations&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Maintenance&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Park Property&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Privately Owned Property&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Public Property&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Services (CPD)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Street and Traffic&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Stump Removal&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Traffic Sign&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Trails&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Turf Restoration&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Account&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Alley&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Brush&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Care&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Commercial Signs / Ads&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Contractor&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Contractor Restoration&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Disabled/Unlicensed on Private Property&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pipeline Referral&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Public Restroom&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Research&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Rodent&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Trash Cart&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Unapproved Objects&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;07&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Animal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Board Up&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fire&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human Resources (HR)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Laboratory Service&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Law&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Neighborhood Abatement Program&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pipeline Restoration Concerns&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Removal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Storm Drain / Catch Basin&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Storm Water Referral&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Street Name Signs&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Traffic Signs&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;06&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;29&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Broken Asphalt&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bruce R. Watkins Freeway&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Communicable Disease&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Injury or Cruelty involving an Animal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Land Bank&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Noise&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Paint Program&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Private Property&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Public Improvement Advisory Committee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sewer Referral&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Street Light&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Volunteer Inspector Program&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;28&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Catch Basin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Illegally Parked&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Malfunction&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Manhole&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Park Maintenance&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Parking Lot&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Recycling&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Return Call to Citizen&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Services (NPD)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tow Services&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Treatment&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Visibility&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;24&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ambulance&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Community Center&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cut / Permit&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Insect Problem&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Landscape&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Leak&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Owned or Stray at Large&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Pipeline Barricade&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Priority&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Storm Clean Up&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Stray Confined&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Water&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Wildlife&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[yr:CREATION_DATE:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>2006</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2010</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>2015</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>2011</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2007</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>2012</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>2013</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2008</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2009</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:DEPARTMENT:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;General Service&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aviation&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Northland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;City Planning and Development&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Public Works&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Information Technology&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Health&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Convention and Entertainment Center&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NHS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;City Clerks Office&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Parks &amp; Rec&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Municipal Court&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Finance&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Water Services&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;KCPD&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NCS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Northeast&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Housing Community Dev&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fire&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;City Council&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Parks &amp; Recreation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mayors Office&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;City Managers Office&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Parks and Rec&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:STATUS:nk]' palette='tableau10_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;ASSIG&quot;</bucket>
+            </map>
+            <map to='#6fb899'>
+              <bucket>&quot;RESOL&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;FAIL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DUP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CANC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;OPEN&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:ZIP CODE:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>4114</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>64082</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>64127</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>64079</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>64114</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>64132</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>64110</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>64130</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>64119</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>64134</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>63130</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>64128</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>66203</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>6152</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>64111</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>64131</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CallCenterServiceRequests' id='CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7'>
+            <properties context=''>
+              <relation connection='sqlserver.1p5chhz18ebnwz15vyo1f1n5sqb6' name='CallCenterServiceRequests' table='[dbo].[CallCenterServiceRequests]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_51DDBBBC4FCE4F69AD95AC5AE13D3567]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Service Requests Over Time (Monthly)' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='YEAR(Creation Date)' />
+        <param name='target' value='Service Requests Over Time (Monthly)' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2_2FE5C73DFE8F4C398A8AE9EF1FF1946D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Trends Dashboard' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='YEAR(Creation Date)' />
+        <param name='target' value='Trends Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Departmental Workload Comparison 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>DEPARTMENTAL WORKLOAD COMPARISON</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Work Group' datatype='string' name='[WORK GROUP]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WORK GROUP]' derivation='None' name='[none:WORK GROUP:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:DEPARTMENT:nk]' />
+              <groupfilter function='member' level='[none:DEPARTMENT:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[none:WORK GROUP:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Work Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:WORK GROUP:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</cols>
+      </table>
+      <simple-id uuid='{D9488254-F6A4-40C3-BFEE-2F8246F2E5C1}' />
+    </worksheet>
+    <worksheet name='Departmental Workload Comparison 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>DEPARTMENTAL WORKLOAD COMPARISON</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Work Group' datatype='string' name='[WORK GROUP]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WORK GROUP]' derivation='None' name='[none:WORK GROUP:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:DEPARTMENT:nk]' />
+              <groupfilter function='member' level='[none:DEPARTMENT:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+              <text column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' />
+              <text column='[federated.128x0350vrkbbl143qyko0nt7892].[none:WORK GROUP:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Work Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:WORK GROUP:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{13AC3910-C702-4492-A31C-343F37A9E183}' />
+    </worksheet>
+    <worksheet name='Geaographical Visualization'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>GEOGRAPHICAL VISUALIZATION</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Zip Code' datatype='integer' default-format='*00000' name='[ZIP CODE]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[rank:cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.128x0350vrkbbl143qyko0nt7892].[ZIP CODE]' ordering-type='Field' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+            <column-instance column='[ZIP CODE]' derivation='None' name='[none:ZIP CODE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[rank:cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>10</max>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[rank:cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[Latitude (generated)]' field-type='quantitative' max='4753981.0335485358' min='4750007.9854482003' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[Longitude (generated)]' field-type='quantitative' max='-10423130.751912866' min='-10432796.525327044' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[none:ZIP CODE:ok]' />
+              <size column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Zip Code:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:ZIP CODE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[Latitude (generated)]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{5DDEF87A-874D-4B0A-913A-AF915D45B46C}' />
+    </worksheet>
+    <worksheet name='Response Time Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>RESPONSE TIME ANALYSIS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Average Days to Close' datatype='real' name='[Calculation_514817782684004354]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([DAYS TO CLOSE])' />
+            </column>
+            <column caption='Days To Close' datatype='real' name='[DAYS TO CLOSE]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DAYS TO CLOSE]' derivation='Max' name='[max:DAYS TO CLOSE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DAYS TO CLOSE]' derivation='Min' name='[min:DAYS TO CLOSE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_514817782684004354]' derivation='User' name='[usr:Calculation_514817782684004354:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:DEPARTMENT:nk]' />
+              <groupfilter function='member' level='[none:DEPARTMENT:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Max. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Min. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Max. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Min. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Max. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Min. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Max. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Min. Days To Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk] + ([federated.128x0350vrkbbl143qyko0nt7892].[max:DAYS TO CLOSE:qk] + [federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]))</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</cols>
+      </table>
+      <simple-id uuid='{2D8DEECD-541B-48D1-920D-0EA7A1F2B0B0}' />
+    </worksheet>
+    <worksheet name='Service Request Status'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>SERVICE REQUESTS STATUS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[STATUS]' derivation='None' name='[none:STATUS:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:STATUS:nk]' member='&quot;ASSIG&quot;' />
+              <groupfilter function='member' level='[none:STATUS:nk]' member='&quot;OPEN&quot;' />
+              <groupfilter function='member' level='[none:STATUS:nk]' member='&quot;RESOL&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2021' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</column>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Status:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</cols>
+      </table>
+      <simple-id uuid='{C95AC4A7-D674-4557-94C0-9E3000806E9C}' />
+    </worksheet>
+    <worksheet name='Service Requests Over Department'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>SERVICE REQUESTS OVER DEPARTMENT</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]'>
+            <groupfilter function='level-members' level='[none:DEPARTMENT:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' />
+              <lod column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Department:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</cols>
+      </table>
+      <simple-id uuid='{5A446981-5D5C-4BD5-B206-6B6B8B858AAB}' />
+    </worksheet>
+    <worksheet name='Service Requests Over Sources'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>SERVICE REQUESTS OVER SOURCES</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Source' datatype='string' name='[SOURCE]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SOURCE]' derivation='None' name='[none:SOURCE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SOURCE:nk]' />
+              <groupfilter function='empty-level' member='[none:SOURCE:nk]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' />
+              <lod column='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Source:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</cols>
+      </table>
+      <simple-id uuid='{FE930E3C-586F-47EC-B2BD-6400A7DAB60A}' />
+    </worksheet>
+    <worksheet name='Service Requests Over Time (Monthly)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>SERVICE REQUESTS BY MONTH</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CREATION_DATE]' derivation='Month' name='[mn:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[mn:CREATION_DATE:ok]'>
+            <groupfilter from='1' function='range' level='[mn:CREATION_DATE:ok]' to='12' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2021' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[mn:CREATION_DATE:ok]</column>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Month:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[mn:CREATION_DATE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#898989'>Year</run>
+                <run bold='true'><![CDATA[: <[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Request Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4172928333282471' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-scope' value='pane' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>([federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok] / [federated.128x0350vrkbbl143qyko0nt7892].[mn:CREATION_DATE:ok])</cols>
+      </table>
+      <simple-id uuid='{426512D0-FD53-436F-BE73-D8727C30FAE2}' />
+    </worksheet>
+    <worksheet name='Service Requests Over Time (Yearly)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>SERVICE REQUESTS BY YEAR</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CREATION_DATE]' derivation='Year-Trunc' name='[tyr:CREATION_DATE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:CREATION_DATE:ok]' member='2021' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[tyr:CREATION_DATE:qk]' scope='cols' value='Year' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[tyr:CREATION_DATE:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[tyr:CREATION_DATE:qk]</cols>
+      </table>
+      <simple-id uuid='{B2B6CCC9-D01E-4DE2-BA9D-62F58A314A54}' />
+    </worksheet>
+    <worksheet name='Time to Closure Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>TIME TO CLOSURE ANALYSIS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Category1' datatype='string' name='[CATEGORY1]' role='dimension' type='nominal' />
+            <column caption='Average Days to Close' datatype='real' name='[Calculation_514817782684004354]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([DAYS TO CLOSE])' />
+            </column>
+            <column caption='Days To Close' datatype='real' name='[DAYS TO CLOSE]' role='measure' type='quantitative' />
+            <column-instance column='[CATEGORY1]' derivation='None' name='[none:CATEGORY1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_514817782684004354]' derivation='User' name='[usr:Calculation_514817782684004354:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_514817782684004354]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:CATEGORY1:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]' scope='cols' value='Average Days to Close' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]' />
+              <lod column='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Category:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]</cols>
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{BC2A259F-BA44-42B2-9E12-92307FFE34FA}' />
+    </worksheet>
+    <worksheet name='Top 10 Performance Metrics'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>TOP 10 PERFORMANCE METRICS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Case Id' datatype='integer' name='[CASE ID]' role='dimension' type='ordinal' />
+            <column caption='Category1' datatype='string' name='[CATEGORY1]' role='dimension' type='nominal' />
+            <column caption='Days To Close Ranking' datatype='integer' name='[Calculation_514817782668394496]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK(MAX([DAYS TO CLOSE]), &apos;asc&apos; )'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Average Days to Close' datatype='real' name='[Calculation_514817782684004354]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([DAYS TO CLOSE])' />
+            </column>
+            <column caption='Days To Close' datatype='real' name='[DAYS TO CLOSE]' role='measure' type='quantitative' />
+            <column caption='Type' datatype='string' name='[TYPE]' role='dimension' type='nominal' />
+            <column-instance column='[DAYS TO CLOSE]' derivation='Min' name='[min:DAYS TO CLOSE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CASE ID]' derivation='None' name='[none:CASE ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[CATEGORY1]' derivation='None' name='[none:CATEGORY1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TYPE]' derivation='None' name='[none:TYPE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_514817782668394496]' derivation='User' name='[usr:Calculation_514817782668394496:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>127.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_514817782684004354]' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:CATEGORY1:nk]' />
+                  <groupfilter function='member' level='[none:CATEGORY1:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]</column>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782668394496:qk:3]' num-steps='5' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.128x0350vrkbbl143qyko0nt7892].[none:TYPE:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782668394496:qk:3]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4612706899642944' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[min:DAYS TO CLOSE:qk]</rows>
+        <cols>([federated.128x0350vrkbbl143qyko0nt7892].[none:CASE ID:ok] / ([federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk] / [federated.128x0350vrkbbl143qyko0nt7892].[none:TYPE:nk]))</cols>
+      </table>
+      <simple-id uuid='{B1CA8732-A5C9-4E0E-910B-AA99B8A5F67A}' />
+    </worksheet>
+    <worksheet name='Workload Efficiency'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18' italic='true'>WORKLOAD EFFICIENCY</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+          </datasources>
+          <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+            <column caption='Average Days to Close' datatype='real' name='[Calculation_514817782684004354]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([DAYS TO CLOSE])' />
+            </column>
+            <column caption='Days To Close' datatype='real' name='[DAYS TO CLOSE]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='CallCenterServiceRequests' datatype='integer' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='CallCenterServiceRequests' datatype='table' name='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_514817782684004354]' derivation='User' name='[usr:Calculation_514817782684004354:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]'>
+            <groupfilter function='level-members' level='[none:DEPARTMENT:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' scope='rows' value='Service Requests Count' />
+            <format attr='title' class='0' field='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]' scope='cols' value='Average Days to Close' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'><![CDATA[Department:	<[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Service Requests Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Average Days to Close:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-color' value='#499894' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]</rows>
+        <cols>[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]</cols>
+      </table>
+      <simple-id uuid='{4F33010B-54D6-4436-AFBD-F8A924E428CD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Performance Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='15' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='6' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='12' name='Time to Closure Analysis' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='19' name='Top 10 Performance Metrics' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='101' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='100' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='19' is-fixed='true' name='Top 10 Performance Metrics' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='12' is-fixed='true' name='Time to Closure Analysis' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{034BA5C5-BF86-45E0-B150-77708A96D1A6}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Trends Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+      </datasources>
+      <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+        <column caption='Creation Date' datatype='date' name='[CREATION_DATE]' role='dimension' type='ordinal' />
+        <column caption='Source' datatype='string' name='[SOURCE]' role='dimension' type='nominal' />
+        <column-instance column='[SOURCE]' derivation='None' name='[none:SOURCE:nk]' pivot='key' type='nominal' />
+        <column-instance column='[CREATION_DATE]' derivation='Year' name='[yr:CREATION_DATE:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='32666' id='3' name='Service Requests Over Time (Monthly)' w='82400' x='800' y='66334'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32666' id='10' name='Service Requests Over Time (Yearly)' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32668' id='14' name='Service Requests Over Department' w='41200' x='42000' y='33666'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32668' id='18' name='Service Requests Over Sources' w='41200' x='800' y='33666'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='21187' id='8' name='Service Requests Over Time (Monthly)' param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type-v2='filter' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13250' id='9' name='Service Requests Over Time (Monthly)' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type-v2='color' w='16000' x='83200' y='22187'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='21187' id='15' name='Service Requests Over Department' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type-v2='color' w='16000' x='83200' y='35437'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='21187' id='19' name='Service Requests Over Sources' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type-v2='filter' w='16000' x='83200' y='56624'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='21189' id='20' name='Service Requests Over Sources' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type-v2='color' w='16000' x='83200' y='77811'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='98' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='97' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='253' h='32666' id='10' is-fixed='true' name='Service Requests Over Time (Yearly)' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21187' id='19' mode='checkdropdown' name='Service Requests Over Sources' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type-v2='filter' w='16000' x='83200' y='56624'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='254' h='32668' id='18' is-fixed='true' name='Service Requests Over Sources' w='41200' x='800' y='33666'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21189' id='20' name='Service Requests Over Sources' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type-v2='color' w='16000' x='83200' y='77811'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='254' h='32668' id='14' is-fixed='true' name='Service Requests Over Department' w='41200' x='42000' y='33666'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21187' id='15' name='Service Requests Over Department' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type-v2='color' w='16000' x='83200' y='35437'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21187' id='8' mode='checkdropdown' name='Service Requests Over Time (Monthly)' param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type-v2='filter' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='253' h='32666' id='3' is-fixed='true' name='Service Requests Over Time (Monthly)' w='82400' x='800' y='66334'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13250' id='9' name='Service Requests Over Time (Monthly)' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type-v2='color' w='16000' x='83200' y='22187'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B516E830-4B47-4202-B105-50EC21D9B888}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Workload Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='CallCenterServiceRequests (DAMG7370)' name='federated.128x0350vrkbbl143qyko0nt7892' />
+      </datasources>
+      <datasource-dependencies datasource='federated.128x0350vrkbbl143qyko0nt7892'>
+        <column caption='Department' datatype='string' name='[DEPARTMENT]' role='dimension' type='nominal' />
+        <column-instance column='[DEPARTMENT]' derivation='None' name='[none:DEPARTMENT:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000' />
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='7000' id='22' name='Departmental Workload Comparison 2' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' type-v2='color' w='27200' x='400' y='1250' />
+        <zone h='10375' id='24' name='Service Request Status' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]' type-v2='color' w='27600' x='500' y='9500' />
+        <zone h='45875' id='21' name='Departmental Workload Comparison 2' w='54800' x='28200' y='750' />
+        <zone h='78375' id='23' name='Service Request Status' w='27400' x='700' y='19875' />
+        <zone h='52125' id='99' name='Workload Efficiency' w='70400' x='28800' y='46375' />
+        <zone fixed-size='716' h='45250' id='100' is-fixed='true' name='Workload Efficiency' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type-v2='filter' w='16800' x='82300' y='1000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='106' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='105' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='45875' id='21' is-fixed='true' name='Departmental Workload Comparison 2' w='54800' x='28200' y='750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7000' id='22' name='Departmental Workload Comparison 2' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' type-v2='color' w='27200' x='400' y='1250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='78375' id='23' is-fixed='true' name='Service Request Status' w='27400' x='700' y='19875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10375' id='24' name='Service Request Status' pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]' type-v2='color' w='27600' x='500' y='9500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='716' h='45250' id='100' mode='checkdropdown' name='Workload Efficiency' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type-v2='filter' w='16800' x='82300' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52125' id='99' is-fixed='true' name='Workload Efficiency' w='70400' x='28800' y='46375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{57D99366-854B-4E96-AEBF-74B903F29961}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Service Requests Over Time (Yearly)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AE536824-FAB2-4A6C-B065-580AF6713DDC}' />
+    </window>
+    <window class='worksheet' name='Service Requests Over Time (Monthly)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type='filter' />
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[mn:CREATION_DATE:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[yr:CREATION_DATE:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9624A785-1BD3-443E-9CFD-9B0325BC601C}' />
+    </window>
+    <window class='worksheet' name='Service Requests Over Sources'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:SOURCE:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4C8D18EC-64C8-4D1B-9F2F-35FE497DAAE5}' />
+    </window>
+    <window class='worksheet' name='Service Requests Over Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CDF4247C-234C-47A7-A009-54AA32EA4801}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Top 10 Performance Metrics'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782668394496:qk:3]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9ACB1C4-D239-439E-9B8C-515FB219D4D7}' />
+    </window>
+    <window class='worksheet' name='Geaographical Visualization'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[rank:cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' type='size' />
+            <card pane-specification-id='1' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:ZIP CODE:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{6F1A4CF8-5B20-49AA-8DBD-5C52CD7E62DD}' />
+    </window>
+    <window class='worksheet' name='Departmental Workload Comparison 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:WORK GROUP:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{52BDB82D-B518-465D-8AB7-48DACEA81A8C}' />
+    </window>
+    <window class='worksheet' name='Departmental Workload Comparison 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[__tableau_internal_object_id__].[cnt:CallCenterServiceRequests_D19649856E3148DB8CE01FCC09F4B2A7:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D4ECBFCF-28BF-4826-BB4F-E75E6B487FD6}' />
+    </window>
+    <window class='worksheet' name='Response Time Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2BB1F66A-7058-43B3-9293-6C85C6B60C95}' />
+    </window>
+    <window class='worksheet' name='Service Request Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[none:STATUS:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0C91CB7F-3F72-46BC-85F7-8FB025520474}' />
+    </window>
+    <window class='worksheet' name='Time to Closure Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:CATEGORY1:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.128x0350vrkbbl143qyko0nt7892].[usr:Calculation_514817782684004354:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{315DF09B-44CE-444B-90E7-FE6699AD3A8E}' />
+    </window>
+    <window class='worksheet' name='Workload Efficiency'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.128x0350vrkbbl143qyko0nt7892].[none:DEPARTMENT:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ABDEB567-D9A4-4248-9090-5E73DC087A49}' />
+    </window>
+    <window class='dashboard' name='Performance Dashboard'>
+      <viewpoints>
+        <viewpoint name='Time to Closure Analysis' />
+        <viewpoint name='Top 10 Performance Metrics'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{3EF243E7-E715-41B6-A7BC-79E5F21EE9CA}' />
+    </window>
+    <window class='dashboard' name='Workload Dashboard'>
+      <viewpoints>
+        <viewpoint name='Departmental Workload Comparison 2' />
+        <viewpoint name='Service Request Status' />
+        <viewpoint name='Workload Efficiency'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{03F2E593-20AE-48C3-A7EB-CB69D3924230}' />
+    </window>
+    <window class='dashboard' name='Trends Dashboard'>
+      <viewpoints>
+        <viewpoint name='Service Requests Over Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Service Requests Over Sources'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Service Requests Over Time (Monthly)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Service Requests Over Time (Yearly)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A7179ACE-7000-4F27-A480-F5D069BBB947}' />
+    </window>
+  </windows>
+</workbook>
